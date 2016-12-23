@@ -4,18 +4,18 @@ A simple popover View
 ![image](https://github.com/SunZhiC/SZCPopoverView/blob/master/SZCPopoverView/SZCPopoverView/images/show2.gif)
 
 ```objc
-        let popoverView = SZCPopOverView(origin: point, width: 200, height: 100, direction: .bottomLeft)
-        popoverView.backView.layer.cornerRadius = 5
+let popoverView = SZCPopOverView(origin: point, width: 200, height: 100, direction: .bottomLeft)
+popoverView.backView.layer.cornerRadius = 5
         
-        let labelOne = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
-        labelOne.text = "Take a photo"
-        let labelTwo = UILabel(frame: CGRect(x: 0, y: 50, width: 200, height: 50))
-        labelTwo.text = "Choose from library"
+let labelOne = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+labelOne.text = "Take a photo"
+let labelTwo = UILabel(frame: CGRect(x: 0, y: 50, width: 200, height: 50))
+labelTwo.text = "Choose from library"
         
-        popoverView.backView.addSubview(labelOne)
-        popoverView.backView.addSubview(labelTwo)
+popoverView.backView.addSubview(labelOne)
+popoverView.backView.addSubview(labelTwo)
         
-        popoverView.popView()
+popoverView.popView()
 
 ```
 It is very easy to use.
