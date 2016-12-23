@@ -13,6 +13,7 @@
 		A40A0AFA1E0D1E0D00AD9E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40A0AF91E0D1E0D00AD9E1B /* Assets.xcassets */; };
 		A40A0AFD1E0D1E0D00AD9E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40A0AFB1E0D1E0D00AD9E1B /* LaunchScreen.storyboard */; };
 		A40A0B051E0D1E2500AD9E1B /* SZCPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A0B041E0D1E2500AD9E1B /* SZCPopOverView.swift */; };
+		A40A0B081E0D240600AD9E1B /* show.gif in Resources */ = {isa = PBXBuildFile; fileRef = A40A0B071E0D240600AD9E1B /* show.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A40A0AFC1E0D1E0D00AD9E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40A0AFE1E0D1E0D00AD9E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A40A0B041E0D1E2500AD9E1B /* SZCPopOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZCPopOverView.swift; sourceTree = "<group>"; };
+		A40A0B071E0D240600AD9E1B /* show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = show.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				A40A0AF11E0D1E0D00AD9E1B /* SZCPopoverView */,
+				A40A0B061E0D240600AD9E1B /* images */,
 				A40A0AF01E0D1E0D00AD9E1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +68,15 @@
 				A40A0AFE1E0D1E0D00AD9E1B /* Info.plist */,
 			);
 			path = SZCPopoverView;
+			sourceTree = "<group>";
+		};
+		A40A0B061E0D240600AD9E1B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A40A0B071E0D240600AD9E1B /* show.gif */,
+			);
+			name = images;
+			path = SZCPopoverView/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40A0AFD1E0D1E0D00AD9E1B /* LaunchScreen.storyboard in Resources */,
+				A40A0B081E0D240600AD9E1B /* show.gif in Resources */,
 				A40A0AFA1E0D1E0D00AD9E1B /* Assets.xcassets in Resources */,
 				A40A0AF81E0D1E0D00AD9E1B /* Main.storyboard in Resources */,
 			);
