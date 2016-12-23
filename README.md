@@ -19,7 +19,12 @@ popoverView.popView()
 
 ```
 It is very easy to use.
+
 1.Creat a popoverView, set its backView‘s origin point,width,height and direction.
+
 2.Add your custom view to backView.
+
 3.Pop popoverView.
+
 4.And more, you could set backView’s property and popoverView's property.
+
