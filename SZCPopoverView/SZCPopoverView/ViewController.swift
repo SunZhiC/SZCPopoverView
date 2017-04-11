@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         
         guard let point = touch?.location(in: view) else { return }
         
-        let popoverView = SZCPopOverView(origin: point, width: 200, height: 100, direction: .bottomLeft)
+        let popoverView = SZCPopOverView(origin: point, width: 200, height: 100, direction: .top)
         popoverView.backView.layer.cornerRadius = 5
         
         let labelOne = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 50))

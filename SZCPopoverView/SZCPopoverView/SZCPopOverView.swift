@@ -23,7 +23,6 @@ enum SZCPopOverViewArrowDirection {
     case topLeft
     case bottomRight
     case bottomLeft
-
 }
 class SZCPopOverView: UIView {
 
@@ -41,8 +40,14 @@ class SZCPopOverView: UIView {
         self.width = width
         self.direction = direction
         self.backView = UIView(frame: CGRect(x: origin.x, y: origin.y, width: width, height: height))
-        self.backView.backgroundColor = UIColor.lightGray
-        
+		self.backView.backgroundColor = UIColor.white
+		self.backView.layer.borderWidth = 1
+		self.backView.layer.borderColor = UIColor(white: 0, alpha: 0.5).cgColor
+		
+		self.backView.layer.shadowColor = UIColor.lightGray.cgColor
+		self.backView.layer.shadowOpacity = 0.5
+		self.backView.layer.shadowOffset = CGSize(width: 2, height: 2)
+		
         super.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
         
         self.addSubview(self.backView)
@@ -103,8 +108,8 @@ extension SZCPopOverView {
         }
         
         context?.closePath()
-        backView.backgroundColor?.setFill()
-        backgroundColor?.setStroke()
+		context?.setFillColor(UIColor.white.cgColor)
+		context?.setStrokeColor(UIColor(white: 0, alpha: 0.5).cgColor)
         context?.drawPath(using: .fillStroke)
         
     }
