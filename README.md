@@ -1,9 +1,10 @@
 # SZCPopoverView
 A simple popover View
+Update to Swift 5.0
 
 ![image](https://github.com/SunZhiC/SZCPopoverView/blob/master/SZCPopoverView/SZCPopoverView/images/show2.gif)
 
-```objc
+```swift
 let popoverView = SZCPopOverView(origin: point, width: 200, height: 100, direction: .bottomLeft)
 popoverView.backView.layer.cornerRadius = 5
         
