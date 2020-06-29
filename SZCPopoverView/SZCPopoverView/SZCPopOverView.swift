@@ -24,6 +24,7 @@ enum SZCPopOverViewArrowDirection {
     case bottomRight
     case bottomLeft
 }
+
 class SZCPopOverView: UIView {
 
     var origin: CGPoint
@@ -38,6 +39,7 @@ class SZCPopOverView: UIView {
         self.origin = origin
         self.height = height
         self.width = width
+        print(direction)
         self.direction = direction
         self.backView = UIView(frame: CGRect(x: origin.x, y: origin.y, width: width, height: height))
 		self.backView.backgroundColor = UIColor.white
