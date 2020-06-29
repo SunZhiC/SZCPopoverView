@@ -1,6 +1,7 @@
 # SZCPopoverView
+## Update to Swift 5.2
 A simple popover View
-Update to Swift 5.0
+
 
 ![image](https://github.com/SunZhiC/SZCPopoverView/blob/master/SZCPopoverView/SZCPopoverView/images/show2.gif)
 
